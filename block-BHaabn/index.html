@@ -1,0 +1,54 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <title>Flexbox | Assignment 1</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+            <img class="logo" src="https://launchpad.altcampus.school/images/altcampus-logo.svg" alt="AltCampus Logo">
+            <nav class="header-nav">
+                <a href="#">Home</a>
+                <a href="#" class="gallery-nav">Gallery</a>
+                <a href="#">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="section container">
+            <h1 class="main-heading">Gallery</h1>
+            <div class="flex">
+                <img class="gallery-img" src="assets/01.png" alt="artwork">
+                <img class="gallery-img" src="assets/02.png" alt="museum">
+                <img class="gallery-img" src="assets/03.png" alt="museam display">
+                <img class="gallery-img" src="assets/04.png" alt="woman in front of portrait">
+                <img class="gallery-img" src="assets/05.png" alt="main in front of paintings">
+                <img class="gallery-img" src="assets/06.png" alt="museum architecture">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container flex">
+            <small>&copy; AltCampus</small>
+            <div class="socials">
+                <a href="#"><i class=""></i></a>
+                <a href="#"><i class=""></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
