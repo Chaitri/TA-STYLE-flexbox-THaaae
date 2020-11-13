@@ -100,6 +100,9 @@ body {
     border-radius: 20px;
     width: 20%;
     align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .nav-items {
@@ -115,8 +118,9 @@ body {
     padding: 10px 0;
 }
 
-.nav-items img {
+.nav-items a img {
     padding: 0 10px;
+    vertical-align: middle;
 }
 
 .nav-items .selected {
@@ -125,6 +129,21 @@ body {
     border-radius: 10px;
 }
 
+.logout-btn {
+    border: 0;
+    box-shadow: none;
+    padding: 16px 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+}
+
+.logout-btn img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
 
 .article {
     background-color: rgb(226, 237, 255);
@@ -150,15 +169,22 @@ body {
 
 .btn {
     display: inline-block;
-    background-color: rgba(1, 150, 1, 0.918);
+    background-color: #30ba66;
     text-decoration: none;
     color: white;
     padding: 10px 50px;
-    margin: 10px 0;
+    margin: 20px 0;
     border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(49, 187, 102, 0.64);
 }
 
 .footer {
     color: rgb(189, 189, 189);
     font-size: 18px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    margin-left: 32px;
 }
