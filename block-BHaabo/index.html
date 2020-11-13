@@ -12,6 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8bc5acd820.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/stylesheet/style.css">
     <title>Flexbox | Assignment 2</title>
 </head>
@@ -50,11 +51,11 @@
                         <img src="assets/icons/setting.svg">
                         <span>Settings</span> 
                     </a>
-                    <a class="logout" href="#">
-                        <img src="assets/icons/log-out.svg">
-                        <span>Log Out</span> 
-                    </a>
                 </nav>
+                <button class="logout-btn">
+                    <img src="assets/icons/log-out.svg">
+                    <span>Log Out</span> 
+                </button>
             </aside>
             <article class="article">
                 <img class="heading-img" src="assets/01.png" alt="Punch Today In The Face Mural">
@@ -71,8 +72,12 @@
         
     </main>
     <footer class="footer">
-        <div class="container">
-            <small>&copy;AltCampus</small>
+        <div class="container flex">
+            <small>&copy; AltCampus</small>
+            <nav>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+            </nav>
         </div>
     </footer>
 </body>
