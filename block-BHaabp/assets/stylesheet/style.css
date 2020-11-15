@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(105, 105, 101);
+    background-color: rgb(240, 234, 234);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    /* background-color: #594776; */
+    background-image: linear-gradient(315deg, #764776 0%, #594776 74%);
+    padding: 20px 0;
+}
+
+.nav-bar {
+    padding-bottom: 30px;
+}
+
+.header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+}
+
+.main-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 189, 0);
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.intro {
+    margin: 50px 0;
+    color: white;
+}
+
+.intro.flex {
+    align-items: flex-start;
+}
+
+.intro h1 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.intro p {
+    color: rgb(175, 175, 175);
+    padding-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 20px;
+    margin: 20px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.intro-btn {
+    background-color: #5ebd8b;
+    color: white;
+    margin: 0;
+}
+
+.main-btn {
+    border: 1px solid gray; 
+    color: rgb(105, 105, 101);
+}
+
+.article-btn {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.main-content {
+    padding: 50px 0;
+    background-color: white;
+    border-bottom: 3px solid rgb(207, 202, 202); 
+}
+
+.main-content .flex {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.main-content article {
+    width: 700px;
+}
+
+.main-content h2, .contact-form h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    line-height: 1.7;
+}
+
+.main-content .list p{
+    margin-bottom: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.item {
+    margin: 20px 0;
+}
+
+.section {
+    margin-top: 70px;
+}
+
+.blog {
+    background-color: white;
+    margin: 60px 0;
+}
+
+.blog-content {
+    width: 60%;
+}
+
+.blog-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.blog-content p, .contact-form p {
+    line-height: 1.7;
+}
+
+.contact {
+    background-color: white;
+    padding: 70px 0;
+    margin-top: 50px;
+    border-bottom: 3px solid rgb(207, 202, 202); 
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact .flex {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.contact-form {
+    width: 60%;
+}
+
+.handle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+    color: rgb(105, 105, 101);
+    margin-bottom: 20px;
+}
+
+.handle i, .item i{
+    color: #5ebd8b;
+    padding-right: 10px;
+}
+
+.footer {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(184, 180, 180);
+}
